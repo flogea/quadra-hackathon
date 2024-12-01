@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/quadra-hackathon/static/css/main.6322e93d.css",
-    "main.js": "/quadra-hackathon/static/js/main.674d4fc4.js",
+    "main.js": "/quadra-hackathon/static/js/main.23b4601c.js",
     "index.html": "/quadra-hackathon/index.html",
     "main.6322e93d.css.map": "/quadra-hackathon/static/css/main.6322e93d.css.map",
-    "main.674d4fc4.js.map": "/quadra-hackathon/static/js/main.674d4fc4.js.map"
+    "main.23b4601c.js.map": "/quadra-hackathon/static/js/main.23b4601c.js.map"
   },
   "entrypoints": [
     "static/css/main.6322e93d.css",
-    "static/js/main.674d4fc4.js"
+    "static/js/main.23b4601c.js"
   ]
 }
