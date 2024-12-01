@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './LargeUserCard.module.scss';
 import { User } from '../../../types';
 import { getFullOrganizationPath } from '../../../utils';
+import { StatusIcon } from '../../StatusIcon';
 
 export const LargeUserCard = ({
   id,
@@ -23,7 +24,9 @@ export const LargeUserCard = ({
           src="https://media.istockphoto.com/id/656673020/photo/handsome-in-spectacles.jpg?s=612x612&w=0&k=20&c=klIlcueGJlAnOehrIZNpvFrVT_olKKqhaVT77H5Fj-s="
           alt="portrait"
         />
-        <div className={styles.status}></div>
+        <div className={styles.status}>
+          <StatusIcon statusType="vacation" />
+        </div>
       </div>
       <div className={styles.userInfo}>
         <h2 className={styles.userName}>
