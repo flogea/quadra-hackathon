@@ -21,3 +21,6 @@ https://github.com/alex-s2222/TrashHack
 - Python
 - React
 - MobX
+
+## ссылка на диск с видео демо
+https://drive.google.com/drive/folders/17q5XiI5JmqYRYZBk2BDFbc-eOUgV5r4S?usp=sharing
