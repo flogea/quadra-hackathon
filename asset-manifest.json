@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quadra-hackathon/static/css/main.6322e93d.css",
+    "main.js": "/quadra-hackathon/static/js/main.674d4fc4.js",
+    "index.html": "/quadra-hackathon/index.html",
+    "main.6322e93d.css.map": "/quadra-hackathon/static/css/main.6322e93d.css.map",
+    "main.674d4fc4.js.map": "/quadra-hackathon/static/js/main.674d4fc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6322e93d.css",
+    "static/js/main.674d4fc4.js"
+  ]
+}
