@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { DefaultUserCard, Search } from '../../components';
 import styles from './SearchPage.module.scss';
 import { CircularProgress } from '@mui/material';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { SearchPage, StructurePage, UserInfoPage } from '../pages';
+import { StructurePage, UserInfoPage } from '../pages';
 import { StoreProvider } from './StoreContext';
 
 const AppRouter: React.FC = () => {

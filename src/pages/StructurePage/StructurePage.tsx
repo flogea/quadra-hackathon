@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Search, TreeChart } from '../../components';
 import { useStore } from '../../app/StoreContext';
 import { CircularProgress } from '@mui/material';
