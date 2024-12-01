@@ -1,0 +1,73 @@
+.defaultCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #cbcbcb;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &.small {
+    gap: 12px;
+
+    .image {
+      width: 44px;
+      height: 44px;
+    }
+
+    .userInfo {
+      .userName {
+        font-size: 14px;
+      }
+
+      .userPositionInfo {
+        .text {
+          .subtitle {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    background: #f4f4f4;
+  }
+
+  .image {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+
+    .userName {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .userPositionInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .text {
+        display: flex;
+        gap: 8px;
+
+        .subtitle {
+          font-size: 14px;
+          color: #7a7a7a;
+        }
+      }
+    }
+  }
+}

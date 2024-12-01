@@ -1,0 +1,18 @@
+.org {
+  border-bottom: 1px solid #cacaca;
+
+  .orgAndMains {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & :first-child {
+      border: none;
+    }
+
+    .mains {
+      display: flex;
+      gap: 8px;
+    }
+  }
+}

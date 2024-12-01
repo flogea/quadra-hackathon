@@ -1,0 +1,48 @@
+.largeCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+
+    .userName {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .userPositionInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 4px;
+
+      .text {
+        display: flex;
+        gap: 8px;
+
+        .title {
+          font-size: 14px;
+          color: black;
+        }
+
+        .subtitle {
+          font-size: 14px;
+          color: #7a7a7a;
+        }
+      }
+    }
+  }
+}

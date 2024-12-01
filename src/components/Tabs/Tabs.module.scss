@@ -1,0 +1,26 @@
+.tabsRoot {
+  display: flex;
+  gap: 8px;
+  min-height: 34px;
+
+  .indicator {
+    display: none;
+  }
+
+  .tab {
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 32px;
+    padding: 8px 16px;
+    min-height: 32px;
+    background-color: #ebebeb;
+    color: black;
+    margin: 0 4px;
+  }
+
+  .selected {
+    background-color: #ed1c25;
+    color: white !important;
+    font-weight: 600;
+  }
+}

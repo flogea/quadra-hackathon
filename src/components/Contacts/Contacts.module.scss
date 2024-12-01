@@ -1,0 +1,24 @@
+.contacts {
+  // width: 172px;
+  flex: 1;
+  height: 108px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 12px;
+
+  .title {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .contactInfo {
+    font-size: 14px;
+    color: #7a7a7a;
+    text-align: start;
+  }
+}

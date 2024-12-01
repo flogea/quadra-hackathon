@@ -1,0 +1,13 @@
+.structure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+
+  a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(120, 150, 224);
+    text-align: start;
+  }
+}
